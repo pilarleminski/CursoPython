@@ -12,3 +12,9 @@ print('=' * 10)
 indices = range(len(lista))
 for indice in indices:
     print(indice, lista[indice])
+
+# Resolução com enumerate
+print('=' * 10)
+
+for indice, nome in enumerate(lista):
+    print(indice, nome)
