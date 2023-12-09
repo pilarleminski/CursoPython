@@ -1,4 +1,4 @@
-frase = 'O Python é uma linguagem de programação multiparadigma. Python foi criado por guido van Rossum.'
+frase = input("Digite uma frase: ")
 
 i = 0
 qtd_apareceu_mais_vezes = 0
